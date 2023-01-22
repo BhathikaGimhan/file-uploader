@@ -7,7 +7,7 @@ File Sharing Web App to share files like images,pdf with your friends in the col
 To run this website run this command on command prompt on root folder.
 
 ```
-npm start or node app.js
+npm start
 ```
 
 It will run under the url http://127.0.0.1:3000/
