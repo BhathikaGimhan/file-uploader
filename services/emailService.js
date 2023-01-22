@@ -12,6 +12,7 @@ module.exports = async({
         let transporter = nodemailer.createTransport({
             host: process.env.SMTP_HOST,
             port: process.env.SMTP_PORT,
+            service: 'gmail',
             secure: false, // true for 465, false for other ports
             auth: {
                 user: process.env.MAIL_USER,
