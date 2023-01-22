@@ -1,6 +1,6 @@
 # File_Sharing_System
 
-File Sharing Web App to share files like images,pdf with your friends in the college using Nodejs,MongoDb,Bootstrap !!
+File Sharing Web App to share files like images,pdf with your friends in the college using Nodejs,MongoDb!!
 
 ## How To Run?
 
@@ -24,7 +24,7 @@ It will run under the url http://127.0.0.1:3000/
 
 ## Pre-requisites
 
-- Node JS (Tested on v12.14.0)
+- Node JS
 - Mongoose
 - Pre-requisites or Dependencies(Below)
 
@@ -37,6 +37,7 @@ It will run under the url http://127.0.0.1:3000/
   <li>EJS</li>
   <li>Multer</li>
   <li>Bcrypt Module</li>
+  <li>Nodemailer</li>
 </ul>
 
 - npm
@@ -81,8 +82,14 @@ npm install mongoose
 npm install dotenv
 ```
 
+- Nodemailer
+
+```
+npm install nodemailer
+```
+
 - Bcrypt
 
 ```
-npm install bcrypt  / npm i bcrypt
+npm install bcrypt
 ```
