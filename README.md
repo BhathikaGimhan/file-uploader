@@ -93,3 +93,5 @@ npm install nodemailer
 ```
 npm install bcrypt
 ```
+
+*note: rename the .env.Example file to .env*
